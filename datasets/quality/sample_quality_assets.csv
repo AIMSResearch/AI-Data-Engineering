@@ -1,0 +1,15 @@
+asset_name,domain,sensitivity_class,criticality,freshness_delay_hours,null_rate_pct,duplicate_rate_pct,schema_drift_events_30d,lineage_coverage_pct,owner_defined,retention_policy_defined,access_review_age_days,asset_type,benchmark_owner_defined,retrieval_freshness_hours,embedding_refresh_age_days
+orders_training_labels,commerce,confidential,high,4,0.2,0.0,0,94,yes,yes,45,label_set,yes,0,0
+session_features_live,behavioral,restricted,high,11,0.6,0.1,1,88,yes,yes,62,feature_table,yes,0,0
+vendor_catalog_feed,product,internal,medium,30,2.8,0.0,4,59,yes,no,121,source_feed,yes,0,0
+customer_support_transcripts,support,restricted,high,18,0.0,0.0,0,41,no,yes,210,document_corpus,yes,36,0
+marketing_audience_export,marketing,confidential,medium,36,1.2,0.3,2,67,yes,no,240,feature_table,yes,0,0
+product_embedding_index,search,internal,high,7,0.0,0.0,1,82,yes,yes,54,retrieval_index,yes,9,18
+returns_reconciliation,finance,confidential,high,52,6.3,1.4,3,76,yes,yes,97,benchmark,no,0,0
+reference_country_codes,shared,public,low,0,0.0,0.0,0,100,yes,yes,365,reference_table,yes,0,0
+support_embedding_store,support,restricted,high,14,0.0,0.0,1,71,yes,yes,88,embedding_store,yes,31,47
+support_prompt_template_v7,support,internal,high,0,0.0,0.0,1,68,yes,yes,124,prompt_template,yes,0,0
+support_context_trace_log,support,restricted,high,10,0.0,0.0,0,57,yes,no,156,context_trace_log,yes,18,0
+support_tool_output_log,support,restricted,high,6,0.2,0.0,1,62,yes,yes,143,tool_output_log,yes,0,0
+support_generated_response_log,support,restricted,high,8,0.0,0.0,0,49,no,no,167,generated_response_log,yes,0,0
+support_retrieval_policy,support,internal,high,0,0.0,0.0,2,64,yes,yes,132,retrieval_policy,yes,0,0

@@ -1,0 +1,4 @@
+extract_window_start,extract_window_end,customer_id,loyalty_tier,profile_updated_at
+2026-03-01T00:00:00Z,2026-03-01T23:59:59Z,c001,gold,2026-03-01T20:11:00Z
+2026-03-01T00:00:00Z,2026-03-01T23:59:59Z,c002,silver,2026-03-01T18:06:00Z
+

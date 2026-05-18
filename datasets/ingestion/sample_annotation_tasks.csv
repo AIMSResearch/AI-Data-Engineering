@@ -1,0 +1,4 @@
+task_id,asset_id,label,annotator_id,review_status,label_policy_version,created_at
+t001,doc_100,relevant,a17,approved,policy_v2,2026-03-02T14:00:00Z
+t002,doc_101,irrelevant,a11,pending,policy_v2,2026-03-02T14:05:00Z
+

@@ -1,0 +1,7 @@
+scenario_id,scenario_name,industry,latency_profile,raw_multimodal,team_count,ownership_model,governance_pressure,online_serving_criticality,feature_reuse_need,notes
+1,retail_recommendations,Retail,real_time,high,9,centralized,7,9,8,High-volume clickstream and product embeddings feed ranking and retrieval.
+2,claims_fraud_detection,Insurance,near_real_time,medium,11,centralized,9,8,7,Structured transactional data with strong audit pressure and rapid alerts.
+3,marketing_reporting_with_ml,Media,batch,low,5,centralized,5,3,4,Warehouse-centric reporting plus periodic churn model retraining.
+4,industrial_predictive_maintenance,Manufacturing,near_real_time,medium,8,hybrid,8,7,6,Sensor streams and maintenance logs support both alerting and retraining.
+5,multi_domain_financial_ai,Banking,real_time,medium,16,domain_oriented,10,9,9,Many teams publish governed data products into a shared AI platform.
+6,document_search_and_rag,Enterprise SaaS,near_real_time,high,7,centralized,6,7,8,Large document corpus with embedding refreshes and semantic retrieval.

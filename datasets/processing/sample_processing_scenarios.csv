@@ -1,0 +1,10 @@
+pipeline_name,source_pattern,freshness_sla_minutes,rows_per_day_millions,late_data_pct,full_refresh_runtime_minutes,incremental_runtime_minutes,transformation_complexity,stateful_join,online_dependency,unique_key_available,replayable_input,evaluation_asset,chunking_or_embedding_stage,benchmark_versioned
+orders_feature_rollup,cdc_tables,1440,18.0,0.4,190,28,medium,no,medium,yes,yes,no,no,yes
+clickstream_sessions,event_stream,15,240.0,4.8,780,42,high,yes,high,yes,yes,no,no,yes
+catalog_enrichment,api_extracts,360,1.2,1.1,48,20,medium,no,medium,yes,yes,no,no,yes
+returns_label_rebuild,warehouse_tables,1440,4.6,6.4,96,31,medium,no,low,yes,yes,yes,no,yes
+fraud_signal_updates,event_stream,1,120.0,2.7,610,14,high,yes,critical,yes,yes,no,no,yes
+marketing_segments,warehouse_tables,720,9.4,0.2,138,24,low,no,low,yes,yes,no,no,yes
+supplier_feed_normalization,file_drop,1440,0.6,8.5,54,46,medium,no,low,no,no,no,no,yes
+search_embedding_refresh,object_store_logs,240,12.5,1.9,225,74,high,no,medium,yes,yes,no,yes,yes
+rag_benchmark_rebuild,object_store_logs,1440,0.9,3.5,88,37,medium,no,low,yes,yes,yes,no,no

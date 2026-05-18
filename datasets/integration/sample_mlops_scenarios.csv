@@ -1,0 +1,10 @@
+scenario_name,model_type,feature_reuse_need,online_latency_ms,training_frequency,registry_discipline,rollback_ready,feedback_logging,serving_criticality,point_in_time_training,evaluation_discipline,benchmark_versioned,owner_clarity
+homepage_ranking,gradient_boosted_ranker,9,45,daily,high,yes,full,critical,yes,high,yes,high
+fraud_scoring,online_classifier,8,30,hourly,high,yes,full,critical,yes,high,yes,high
+marketing_propensity,batch_classifier,5,60000,weekly,medium,yes,partial,medium,yes,medium,yes,medium
+catalog_tagging,multilabel_classifier,4,600000,weekly,medium,no,partial,low,yes,medium,no,medium
+search_retrieval_embeddings,embedding_retrieval,7,80,daily,medium,yes,partial,high,no,medium,yes,medium
+support_triage,llm_classifier,6,250,daily,low,no,partial,high,yes,low,no,low
+price_forecast,demand_model,3,86400000,weekly,medium,yes,none,low,yes,medium,yes,medium
+personalized_notifications,propensity_ranker,7,120,daily,none,no,none,high,no,none,no,none
+rag_support_assistant,retrieval_augmented_llm,8,180,daily,medium,yes,partial,high,yes,medium,yes,low

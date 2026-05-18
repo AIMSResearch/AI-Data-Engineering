@@ -1,0 +1,9 @@
+case_name,industry,dominant_pattern,latency_pressure,governance_pressure,multimodal_pressure,agentic_pressure,feature_reuse_score,current_platform_shape,primary_failure_mode,next_investment
+marketplace_ranking,commerce,marketplace_retrieval,critical,medium,high,low,8,hybrid_feature_and_serving_platform,fast responses with stale retrieval state,version online features and retrieval artifacts together
+professional_network_features,professional_network,feature_reuse,high,medium,medium,low,10,organization_wide_feature_platform,duplicate features drift across teams,expand shared feature contracts and lineage
+clinical_decision_support,healthcare,control_centric_ai,medium,critical,medium,low,6,governed_ml_platform,model-facing data cannot be defended under review,invest in quality evidence and approval workflows
+fraud_decisioning,financial_services,real_time_risk,critical,high,low,low,7,streaming_and_batch_risk_platform,rollback is weaker than the online decision path,bind promotion to rollback and evidence
+media_personalization,media,recommendation_platform,high,medium,medium,low,9,shared_feature_and_experiment_platform,feature semantics drift across ranking surfaces,consolidate shared feature definitions
+enterprise_retrieval_assistant,enterprise_software,retrieval_augmented_ai,medium,high,critical,medium,5,retrieval_and_llm_serving_stack,retrieval context is not versioned with responses,track source snapshots and retrieval quality
+industrial_predictive_maintenance,manufacturing,multimodal_monitoring,medium,high,high,medium,4,edge_plus_central_analytics,edge and central state diverge during updates,improve lineage between edge captures and central models
+agentic_research_assistant,knowledge_work,agentic_workflow,low,medium,high,critical,3,workflow_orchestrated_ai_stack,long-running agent state cannot be replayed cleanly,store checkpoints and tool traces as governed artifacts

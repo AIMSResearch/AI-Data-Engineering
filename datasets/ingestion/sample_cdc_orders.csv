@@ -1,0 +1,5 @@
+order_id,customer_id,status,updated_at,op
+1001,c001,created,2026-03-01T10:15:00Z,c
+1001,c001,shipped,2026-03-02T08:30:00Z,u
+1002,c002,cancelled,2026-03-02T09:05:00Z,u
+

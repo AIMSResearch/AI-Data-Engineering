@@ -1,0 +1,5 @@
+event_time,user_id,event_name,product_id,session_id
+2026-03-01T10:15:00Z,u101,product_view,p991,s001
+2026-03-01T10:15:04Z,u101,add_to_cart,p991,s001
+2026-03-01T10:16:10Z,u204,search,,s014
+
