@@ -1,0 +1,6 @@
+run_id: run_2026_03_05_17
+model_version: ranking_model_v12
+benchmark_version: benchmark_v5
+feature_dependency_version: session_features_v8
+rollback_target: ranking_model_v11
+

@@ -1,0 +1,6 @@
+source_id: api.customer_profiles
+ingestion_time: 2026-03-01T23:59:59Z
+schema_version: v4
+extraction_window: 2026-03-01
+validation_status: passed_with_warnings
+

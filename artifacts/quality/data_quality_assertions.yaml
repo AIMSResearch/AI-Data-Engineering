@@ -1,0 +1,7 @@
+dataset: ranking_features_daily
+assertions:
+  uniqueness_key: session_id
+  freshness_minutes: 30
+  null_threshold_pct: 1
+  severity: block_publish
+

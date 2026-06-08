@@ -1,0 +1,29 @@
+{
+  "prompt_instance_id": "pi_2026_04_10_00192",
+  "template_name": "support_answer_template",
+  "template_version": "v7",
+  "model": "model_x_v4",
+  "user_question": "Can I return a laptop after 35 days if it is unopened?",
+  "retrieval_corpus": "support_docs_v14",
+  "embedding_model": "embed_model_v3",
+  "retrieved_chunks": [
+    {
+      "doc_id": "return_policy_2026",
+      "chunk_id": "c18",
+      "score": 0.84
+    },
+    {
+      "doc_id": "warranty_terms_2026",
+      "chunk_id": "c07",
+      "score": 0.79
+    }
+  ],
+  "tools_called": [
+    {
+      "tool_name": "order_status_lookup_v2",
+      "status": "not_called"
+    }
+  ],
+  "safety_policy_version": "policy_v5",
+  "response_id": "resp_2026_04_10_00192"
+}

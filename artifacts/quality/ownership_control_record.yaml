@@ -1,0 +1,6 @@
+owner: ranking_data_team
+sensitivity_class: internal_restricted
+retention_rule: 365_days
+benchmark_approval_owner: ranking_eval_team
+escalation_path: data_platform_oncall
+

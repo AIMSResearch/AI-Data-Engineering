@@ -1,0 +1,8 @@
+asset,authoritative_store,derived_store,retention_tier,versioning_method
+orders,postgres.orders,lakehouse.orders_curated,hot,cdc_snapshot
+clickstream,s3://raw/clickstream,lakehouse.sessions,historical,partitioned_append
+ranking_benchmark,lakehouse.eval_benchmarks,,warm,benchmark_release
+label_snapshot,s3://labels/reviews,lakehouse.labels_curated,warm,annotation_snapshot
+vector_index,vector_service.product_index,,hot,index_build_id
+retrieval_corpus,s3://docs/policies,vector_service.policy_index,historical,corpus_snapshot
+

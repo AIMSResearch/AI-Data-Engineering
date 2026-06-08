@@ -1,0 +1,6 @@
+scenario,latency_pressure,team_count,governance_pressure,retrieval_dependency,online_freshness_need,recommended_pattern
+startup_recommender,medium,1,low,low,medium,hybrid_lakehouse
+enterprise_search_assistant,medium,3,medium,high,high,retrieval_centered
+regulated_healthcare_model,low,2,high,low,medium,centralized_core
+multi_team_ads_platform,high,8,high,medium,high,domain_oriented
+

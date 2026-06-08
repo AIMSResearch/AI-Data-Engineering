@@ -1,0 +1,7 @@
+feature_view: customer_session_7d
+entities:
+  - customer_id
+source: lakehouse.session_features_daily
+ttl_hours: 24
+online_store: redis_features
+

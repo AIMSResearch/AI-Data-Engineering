@@ -1,0 +1,19 @@
+application: support_assistant
+deployment_version: 2026.04.10
+llm_model: model_x_v4
+prompt_template: support_answer_template_v7
+system_prompt: support_policy_system_v5
+retrieval_corpus: support_docs_v14
+chunking_strategy: semantic_chunks_v3
+embedding_model: embed_model_v3
+vector_index: support_index_v14_2
+tools:
+  - order_status_lookup_v2
+  - return_authorization_v1
+evaluation_set: support_eval_v9
+safety_suite: prompt_injection_suite_v4
+approved_by: ai_platform_review
+rollback:
+  prompt_template: support_answer_template_v6
+  vector_index: support_index_v13_8
+  safety_suite: prompt_injection_suite_v3

@@ -1,0 +1,8 @@
+chunk_size: 400
+chunk_overlap: 50
+metadata_attachment:
+  - source_document_id
+  - section_title
+  - access_policy
+  - source_version
+

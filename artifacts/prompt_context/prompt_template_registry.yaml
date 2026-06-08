@@ -1,0 +1,25 @@
+template_name: support_answer_template
+template_version: v7
+owner: support_ai_platform
+intended_model: model_x_v4
+input_variables:
+  - user_question
+  - account_tier
+  - retrieved_context
+  - tool_results
+allowed_tools:
+  - order_status_lookup_v2
+  - return_authorization_v1
+retrieval_policy:
+  corpus: support_docs_v14
+  max_chunks: 4
+  permission_filter: required
+safety_constraints:
+  - answer_only_from_context_for_policy_questions
+  - refuse_if_context_missing_for_account_actions
+evaluation_results:
+  benchmark: support_eval_v9
+  groundedness_pass_rate: 0.93
+  policy_compliance_pass_rate: 0.98
+deployment_status: approved_for_canary
+rollback_version: v6

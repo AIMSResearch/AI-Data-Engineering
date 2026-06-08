@@ -1,0 +1,4 @@
+corpus_name,corpus_version,source_type,chunking_strategy,embedding_model,permission_filter,last_refresh_utc,owner
+support_docs,support_docs_v14,pdf_and_help_center,semantic_chunks_v3,embed_model_v3,required,2026-04-10T01:30:00Z,support_content_ops
+policy_manuals,policy_manuals_v6,pdf,section_chunks_v2,embed_model_v3,required,2026-04-08T22:00:00Z,policy_team
+product_guides,product_guides_v11,html_docs,paragraph_chunks_v4,embed_model_v2,required,2026-04-09T18:15:00Z,product_docs_team

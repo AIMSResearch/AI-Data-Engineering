@@ -1,0 +1,10 @@
+event_name: product_view
+required_fields:
+  - event_time
+  - user_id
+  - product_id
+timestamp_field: event_time
+timestamp_not_null: true
+compatibility: backward
+quarantine_on_violation: true
+

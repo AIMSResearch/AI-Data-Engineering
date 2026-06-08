@@ -1,0 +1,6 @@
+online_features_available: true
+retrieval_index_current: true
+benchmark_current: true
+shadow_or_canary_configured: true
+rollback_path_verified: true
+
